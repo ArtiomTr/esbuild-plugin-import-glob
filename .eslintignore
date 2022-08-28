@@ -1,0 +1,5 @@
+tests
+*.config.js
+*.config.ts
+node_modules
+dist

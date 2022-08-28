@@ -1,0 +1,8 @@
+{
+	"root": true,
+	"extends": ["@sirse-dev/eslint-config"],
+	"rules": {
+		"unicorn/prefer-node-protocol": "off",
+		"unicorn/import-style": "off"
+	}
+}
