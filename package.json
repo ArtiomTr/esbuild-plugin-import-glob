@@ -4,12 +4,18 @@
 	"description": "ESBuild plugin to support import.meta.glob imports",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
+	"publishConfig": {
+		"access": "public",
+		"directory": "prepublish"
+	},
 	"scripts": {
 		"build": "aqu build && cp",
 		"dev": "aqu watch",
 		"test": "aqu test",
 		"lint": "eslint .",
-		"lint:fix": "pnpm lint --fix"
+		"lint:fix": "pnpm lint --fix",
+		"prepublishOnly": "rm -rf ./prepublish && clean-publish",
+		"postpublish": "rm -rf ./prepublish"
 	},
 	"keywords": [
 		"esbuild"
@@ -24,6 +30,7 @@
 		"@types/jest": "^28.1.8",
 		"@types/node": "16.11.7",
 		"aqu": "^0.3.2",
+		"clean-publish": "^4.0.1",
 		"esbuild": "^0.15.5",
 		"eslint": "^8.22.0",
 		"memfs": "^3.4.7",
