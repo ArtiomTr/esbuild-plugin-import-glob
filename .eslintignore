@@ -3,3 +3,4 @@ tests
 *.config.ts
 node_modules
 dist
+coverage

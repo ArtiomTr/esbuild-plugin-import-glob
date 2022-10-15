@@ -14,7 +14,8 @@
 		"test": "aqu test",
 		"lint": "eslint .",
 		"lint:fix": "pnpm lint --fix",
-		"prepublishOnly": "rm -rf ./prepublish && clean-publish",
+		"pipeline": "pnpm build && pnpm lint && pnpm test",
+		"prepublishOnly": "pnpm pipeline && rm -rf ./prepublish && clean-publish",
 		"postpublish": "rm -rf ./prepublish"
 	},
 	"keywords": [
