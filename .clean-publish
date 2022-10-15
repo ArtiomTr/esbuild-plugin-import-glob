@@ -1,0 +1,15 @@
+{
+	"withoutPublish": true,
+	"tempDir": "prepublish",
+	"packageManager": "pnpm",
+	"files": [
+		"src",
+		"aqu.config.ts",
+        ".gitignore",
+		"tsconfig.json",
+        "tsconfig.test.json",
+        ".changeset",
+        "coverage",
+        "tests"
+	]
+}

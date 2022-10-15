@@ -10,6 +10,7 @@ specifiers:
   '@types/jest': ^28.1.8
   '@types/node': 16.11.7
   aqu: ^0.3.2
+  clean-publish: ^4.0.1
   esbuild: ^0.15.5
   eslint: ^8.22.0
   fast-glob: ^3.2.11
@@ -30,6 +31,7 @@ devDependencies:
   '@types/jest': 28.1.8
   '@types/node': 16.11.7
   aqu: 0.3.2_@babel+core@7.18.13
+  clean-publish: 4.0.1
   esbuild: 0.15.5
   eslint: 8.22.0
   memfs: 3.4.7
@@ -3037,6 +3039,17 @@ packages:
       define-property: 0.2.5
       isobject: 3.0.1
       static-extend: 0.1.2
+    dev: true
+
+  /clean-publish/4.0.1:
+    resolution: {integrity: sha512-6v0bh5kQD5FDlxBgXDVNNc6KmAB7iIP/GHD91q9xsGVZT5XB9Y8TNqB7dL5u9PTZlBeLpBw+A1AseRlEEJLSWA==}
+    engines: {node: '>= 16.0.0'}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+      fast-glob: 3.2.11
+      lilconfig: 2.0.6
+      micromatch: 4.0.5
     dev: true
 
   /clean-regexp/1.0.0:
@@ -6062,6 +6075,11 @@ packages:
     dependencies:
       prelude-ls: 1.2.1
       type-check: 0.4.0
+    dev: true
+
+  /lilconfig/2.0.6:
+    resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
+    engines: {node: '>=10'}
     dev: true
 
   /lines-and-columns/1.2.4:
