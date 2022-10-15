@@ -98,7 +98,6 @@ export const transformGlob = async (source: string, config: TransformConfig): Pr
 							line: location.start.line,
 							lineText: getLine(source, location.start.line),
 							file: config.path,
-							// Suggestion: 'Hello world?',
 							length:
 								location.end.line === location.start.line
 									? location.end.column - location.start.column
