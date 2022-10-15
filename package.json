@@ -1,6 +1,6 @@
 {
 	"name": "@sirse-dev/esbuild-plugin-import-glob",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "ESBuild plugin to support import.meta.glob imports",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
