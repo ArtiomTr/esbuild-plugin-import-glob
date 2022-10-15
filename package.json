@@ -9,7 +9,7 @@
 		"directory": "prepublish"
 	},
 	"scripts": {
-		"build": "aqu build && cp",
+		"build": "aqu build && cp ./src/client.d.ts ./dist/",
 		"dev": "aqu watch",
 		"test": "aqu test",
 		"lint": "eslint .",
