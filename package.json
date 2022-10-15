@@ -17,6 +17,7 @@
 	"author": "sirse",
 	"license": "MIT",
 	"devDependencies": {
+		"@changesets/cli": "^2.25.0",
 		"@sirse-dev/eslint-config": "^1.0.12",
 		"@types/babel__code-frame": "^7.0.3",
 		"@types/babel__core": "^7.1.19",
